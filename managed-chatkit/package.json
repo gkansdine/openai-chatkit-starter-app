@@ -8,8 +8,11 @@
     "frontend:lint": "npm --prefix frontend install && npm --prefix frontend run lint",
     "backend": "./backend/scripts/run.sh"
   },
-  "devDependencies": {
-    "concurrently": "^9.1.2"
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+    …
   }
 }
 
